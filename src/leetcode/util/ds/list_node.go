@@ -1,4 +1,4 @@
-package structures
+package ds
 
 // ListNode the linked list node for singly linked list
 type ListNode struct {

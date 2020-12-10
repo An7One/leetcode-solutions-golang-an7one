@@ -1,11 +1,11 @@
 package lc0002
 
 import (
-	"github.com/zea7ot/leetcode-solutions-golang-zea7ot/utils/structures"
+	"leetcode-solutions-golang-zea7ot/src/leetcode/util/ds"
 )
 
 // ListNode is the node for a singly-list node
-type ListNode = structures.ListNode
+type ListNode = ds.ListNode
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil || l2 == nil {

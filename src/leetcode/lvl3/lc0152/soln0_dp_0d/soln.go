@@ -3,19 +3,19 @@ package lc0152
 import "math"
 
 func maxProduct(nums []int) int {
-	var prev_min, prev_max int = 1, 1
+	var prevMin, prevMax int = 1, 1
 	var largest = math.MinInt8
 
 	for _, num := range nums {
-		var cur_min = minOf(num, prev_min*num, prev_max*num)
-		var cur_max = maxOf(num, prev_min*num, prev_max*num)
+		curMin := minOf(num, prevMin*num, prevMax*num)
+		var curMax = maxOf(num, prevMin*num, prevMax*num)
 
-		if cur_max > largest {
-			largest = cur_max
+		if curMax > largest {
+			largest = curMax
 		}
 
-		prev_min = cur_min
-		prev_max = cur_max
+		prevMin = curMin
+		prevMax = curMax
 	}
 
 	return largest

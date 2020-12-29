@@ -1,9 +1,9 @@
 package lc0875
 
-func minEatingSpeed(piles []int, H int) int {
-	const Range int = 1e9
+const dataRange int = 1e9
 
-	var lo, hi int = 1, Range
+func minEatingSpeed(piles []int, H int) int {
+	var lo, hi int = 1, dataRange
 
 	for lo < hi {
 		var totalHours int = 0

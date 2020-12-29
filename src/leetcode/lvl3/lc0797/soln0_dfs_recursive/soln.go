@@ -1,4 +1,4 @@
-package lc0797
+package lc0797_soln0BFS
 
 // https://leetcode.com/problems/all-paths-from-source-to-target/
 // Time Complexity:		O()

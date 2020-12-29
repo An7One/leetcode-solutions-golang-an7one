@@ -9,6 +9,7 @@ func allPathsSourceTarget(graph [][]int) [][]int {
 	paths := [][]int{}
 	ans := [][]int{}
 	paths = append(paths, []int{0})
+
 	for len(paths) > 0 {
 		path := paths[0]
 		paths = paths[1:]

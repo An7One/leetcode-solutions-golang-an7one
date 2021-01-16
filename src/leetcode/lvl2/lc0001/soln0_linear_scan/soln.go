@@ -2,11 +2,12 @@ package lc0001
 
 func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
-	for idx, val := range nums {
-		if key, ok := m[target-val]; ok {
-			return []int{idx, key}
+	for idx, num := range nums {
+		expNum := target - num
+		if expIdx, ok := m[expNum]; ok {
+			return []int{idx, expIdx}
 		}
-		m[val] = idx
+		m[num] = idx
 	}
 
 	return nil

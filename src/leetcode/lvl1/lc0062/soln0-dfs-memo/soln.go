@@ -4,7 +4,6 @@
 //
 // References:
 //	https://youtu.be/BxblkIz6TZc?t=518
-
 package lc0062
 
 func uniquePaths(m int, n int) int {

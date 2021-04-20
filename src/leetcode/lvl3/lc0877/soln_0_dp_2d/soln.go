@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/stone-game/
+//
+// Time Complexity:		O()
+// Space Complexity:	O()
 package lc0877
 
 func stoneGame(piles []int) bool {

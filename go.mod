@@ -1,5 +1,3 @@
-module leetcode-solutions-golang-zea7ot
+module github.com/an7one/leetcode-solutions-golang-an7one
 
-go 1.15
-
-require github.com/zea7ot/leetcode-solutions-golang-zea7ot v0.0.0-20201207065016-466d4b682578
+go 1.16

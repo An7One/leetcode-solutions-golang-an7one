@@ -1,11 +1,11 @@
-// https://leetcode.com/problems/maximum-product-subarray/
-//
-// Time Complexity:		O()
-// Space Complexity:	O()
 package lc0152
 
 import "math"
 
+// @author: Leon
+// https://leetcode.com/problems/maximum-product-subarray/
+// Time Complexity:		O(`len(nums)`)
+// Space Complexity:	O(1)
 func maxProduct(nums []int) int {
 	var prevMin, prevMax int = 1, 1
 	var largest = math.MinInt8
